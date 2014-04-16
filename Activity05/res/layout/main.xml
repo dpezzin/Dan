@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:shrinkColumns="2">
+
+	<TableRow>
+		<TextView
+			android:layout_column="1"
+			android:text="LinearLayout"
+			android:padding="3px"
+			android:textStyle="bold"
+		/>
+		<TextView
+			android:text="Organizes child views into horizontal or vertical layout"
+			android:padding="3px"
+			android:layout_width="wrap_content"
+			android:gravity="right"
+		/>
+	</TableRow>
+
+	<TableRow>
+		<TextView
+			android:text="*"
+			android:textStyle="bold"
+		/>
+		<TextView
+			android:text="TableLayout"
+			android:padding="3px"
+			android:textStyle="bold"
+		/>
+		<TextView
+			android:text="Table layout with arbitrary numbers of rows and columns"
+			android:padding="3px"
+			android:layout_width="wrap_content"
+			android:gravity="right"
+		/>
+	</TableRow>
+
+	<TableRow>
+		<TextView
+			android:layout_column="1"
+			android:text="RelativeLayout"
+			android:padding="3px"
+			android:textStyle="bold"
+		/>
+		<TextView
+			android:text="Specifies location of children relative to each other"
+			android:padding="3px"
+			android:singleLine="false"
+			android:gravity="right"
+			android:layout_width="wrap_content"
+		/>
+	</TableRow>
+
+</TableLayout>

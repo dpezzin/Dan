@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:gravity="fill_vertical">
+	<TableRow>
+	    <Button
+	        android:id="@+id/url"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_gravity="fill_vertical"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:text="URL" />
+	    <Button
+	        android:id="@+id/tel"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:text="Telephone" />
+	</TableRow>
+	<TableRow>
+		<Button
+		    android:id="@+id/map"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="fill_vertical"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:text="Map" />
+		<Button
+			android:id="@+id/stview"
+			android:text="Street View"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:layout_weight="1" />
+	</TableRow>
+	<TableRow>
+		<Button
+		    android:id="@+id/sms"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:text="SMS" />
+		<Button
+			android:id="@+id/email"
+			android:text="Email"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:layout_weight="1" />
+	</TableRow>
+</TableLayout>
+</LinearLayout>
+</LinearLayout>

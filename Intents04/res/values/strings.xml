@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="play">Vroom vroom!</string>
+	<string name="pause">Emergency brake!</string>
+    <string name="app_name">cs76 lecture Intents04</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, QRDecoder!</string>
+    <string name="app_name">QRDecoder</string>
+    <string name="continue_label">Click below to load the URL!!</string>
+    <string name="web_button">Load the URL!!</string>
+    <string name="decode_label">Decoded URL</string>
+
+</resources>

@@ -1,0 +1,8 @@
+package com.example.mysqlprac;
+
+public class R {
+
+	public static Object layout;
+	protected static Object id;
+
+}

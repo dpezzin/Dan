@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView
+		android:id="@+id/firstHello"
+		android:text="@string/hello1"
+		android:textSize="16pt"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+	<TextView
+		android:id="@+id/secondHello"
+		android:text="@string/hello2"
+		android:textSize="14pt"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<TextView
+			android:id="@+id/thirdHello"
+			android:text="@string/hello3"
+			android:textSize="12pt"
+			android:typeface="monospace"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_below="@id/secondHello" />
+		<TextView
+			android:background="@color/translucent_blue"
+			android:textSize="12pt"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignTop="@id/thirdHello" />
+	</RelativeLayout>
+	<TextView
+		android:text="@string/hello4"
+		android:textSize="10pt"
+		android:textColor="@color/red"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+</LinearLayout>

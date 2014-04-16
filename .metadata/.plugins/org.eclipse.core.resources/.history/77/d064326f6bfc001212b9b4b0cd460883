@@ -1,0 +1,34 @@
+import java.io.*;
+import java.net.*;
+
+/**
+	This program makes a socket connection to the atomic clock 
+	in Boulder, Colorado, and prints the time that the server sends.
+*/
+public class SocketTest
+{
+	public static void main(String[] args)
+	{
+		Socket s;
+		try
+		{
+			s = new Socket("192.168.1.68",
+				12345);
+			
+			BufferedReader in = new BufferedReader
+				(new InputStreamReader(s.getInputStream()));
+			
+			String line = in.readLine();
+			
+			System.out.println(line);
+			PrintWriter out = new PrintWriter
+					(new OutputStreamWriter(s.getOutputStream()));
+			out.write("Ryan is a bad ass mother fucker!");
+			s.close();
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,109 @@
+package com.example.flash2;
+
+import net.cs76.lectures.activity07.R;
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+
+/*
+ * Activity07
+ * Dan Armendariz
+ * Computer Science E-76
+ * 
+ * Introducing event handlers to allow user interaction.
+ */
+
+
+public class MainActivity extends Activity {
+
+	// define an OnClickListener that is an anonymous function
+    private OnClickListener respondToClick = new OnClickListener() {
+    	// the onClick() method is called when the OnClickListener
+    	// detects a click event.
+    	public void onClick(View v) {
+    		// get the current context to display a Toast (below)
+    		Context context = getApplicationContext();
+
+    		CharSequence text;
+
+    		// figure out which button was clicked by comparing
+    		// the View's ID with known IDs.
+    		switch(v.getId()) {
+	    		case R.id.one: text = "one pushed!"; break;
+	    		case R.id.two: text = "two pushed!"; break;
+	    		case R.id.three: text = "three pushed!"; break;
+	    		case R.id.four: text = "four pushed!"; break;
+	    		case R.id.five: text = "five pushed!"; break;
+	    		case R.id.six: text = "six pushed!"; break;
+	    		default: text="Who knows what was pushed!";
+    		}
+
+    		// show a Toast for a short amount of time, displaying
+    		// which button was pushed.
+    		int duration = Toast.LENGTH_SHORT;
+    		Toast toast = Toast.makeText(context, text, duration);
+    		toast.show();
+    	}
+
+    };
+	
+	/** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+ 
+        // find our button in the UI by its ID
+        Button one = (Button)findViewById(R.id.one);
+
+        // tell the OnClickListener which method to call
+        // when a click is detected.
+        one.setOnClickListener(respondToClick);
+
+        
+        // find our button in the UI by its ID
+        Button two = (Button)findViewById(R.id.two);
+
+        // tell the OnClickListener which method to call
+        // when a click is detected.
+        two.setOnClickListener(respondToClick);
+        
+        
+        // find our button in the UI by its ID
+        Button three = (Button)findViewById(R.id.three);
+
+        // tell the OnClickListener which method to call
+        // when a click is detected.
+        three.setOnClickListener(respondToClick);
+        
+        
+        // find our button in the UI by its ID
+        Button four = (Button)findViewById(R.id.four);
+
+        // tell the OnClickListener which method to call
+        // when a click is detected.
+        four.setOnClickListener(respondToClick);
+        
+        
+        // find our button in the UI by its ID
+        Button five = (Button)findViewById(R.id.five);
+
+        // tell the OnClickListener which method to call
+        // when a click is detected.
+        five.setOnClickListener(respondToClick);
+        
+        
+        // find our button in the UI by its ID
+        Button six = (Button)findViewById(R.id.six);
+
+        // tell the OnClickListener which method to call
+        // when a click is detected.
+        six.setOnClickListener(respondToClick);
+
+    }
+
+}

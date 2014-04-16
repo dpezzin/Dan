@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello1">Hello, World! (1)</string>
+    <string name="hello2"><b>Hello, <i>World!</i></b> (2)</string>
+    <string name="hello3">Hello, World! (3)</string>
+    <string name="hello4">Hello, World! (4)</string>
+    <string name="app_name">cs76 lecture Intents01</string>
+    <string name="valid">This\'ll do</string>
+    <string name="valid2">"So'll this"</string>
+    <!-- 
+	    <string name="invalid1">This won't</string>
+	    <string name="invalid2">Nor&apos;ll this</string>
+     -->
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView
+		android:text="Hello, World! (1)"
+		android:textSize="16pt"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>
+	<TextView
+		android:text="Hello, World! (2)"
+		android:textSize="14pt"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>
+	<TextView
+		android:text="Hello, World! (3)"
+		android:textSize="12pt"
+		android:typeface="monospace"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>
+	<TextView
+		android:text="Hello, World! (4)"
+		android:textSize="10pt"
+		android:textColor="#cc0000"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>
+
+</LinearLayout>

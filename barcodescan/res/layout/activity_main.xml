@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dip"
+    >
+
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+android:textColor="@color/mbackground1"
+android:gravity="center_horizontal"
+android:text="@string/decode_label"
+android:padding="20dip" 
+/>
+
+<TextView
+android:id="@+id/mytext"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:background="@color/mbackground2" 
+android:textColor="@color/mytextcolor" 
+android:padding="20dip"
+/>
+
+
+ <TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/continue_label"
+android:gravity="center_horizontal"
+android:textColor="@color/mytextcolor"
+android:padding="20dip"
+/>
+
+<Button 
+android:id="@+id/webbutton"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/web_button"
+android:textColor="@color/mytextcolor"
+/>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="16sp"
+    android:text="Pick your poison.Pick your poison."
+    android:gravity="center"
+    />
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableRow>
+		<Button
+			android:id="@+id/url"
+			android:text="URL"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" />
+		<Button
+			android:id="@+id/tel"
+			android:text="Telephone"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" />
+
+	</TableRow>
+	
+	<TableRow>
+		<Button
+			android:id="@+id/map"
+			android:text="Map"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" />
+		<Button
+			android:id="@+id/stview"
+			android:text="Street View"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" />
+
+	</TableRow>
+
+	<TableRow>
+		<Button
+			android:id="@+id/sms"
+			android:text="SMS"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" />
+		<Button
+			android:id="@+id/email"
+			android:text="Email"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" />
+
+	</TableRow>
+</TableLayout>    	
+
+</LinearLayout>

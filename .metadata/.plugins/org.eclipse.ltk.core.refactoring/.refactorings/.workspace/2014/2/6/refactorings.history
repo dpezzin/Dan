@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;OpenGLES10Activity&apos;" deleteContents="true" description="Delete resource &apos;OpenGLES10Activity&apos;" element1="/OpenGLES10Activity" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1391326859557"/>&#x0A;<refactoring comment="Delete resource &apos;OpenGLES20Activity&apos;" deleteContents="true" description="Delete resource &apos;OpenGLES20Activity&apos;" element1="/OpenGLES20Activity" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1391326969424"/>
+</session>
